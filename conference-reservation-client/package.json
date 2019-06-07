@@ -1,0 +1,43 @@
+{
+  "name": "conference-reservation-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "chromedriver": "^74.0.0",
+    "geckodriver": "^1.16.2",
+    "mocha": "^6.1.4",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+ "react-datepicker": "^2.5.0",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "latest",
+    "react-scripts": "3.0.0",
+    "reactstrap": "^8.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "s-test": "mocha test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
